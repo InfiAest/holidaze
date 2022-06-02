@@ -1,0 +1,87 @@
+$body-color: map-get($colors, body);
+$body-background-color: map-get($colors, background);
+$primary: map-get($colors, primary);
+$secondary: map-get($colors, secondary);
+$btn-secondary: map-get($colors, secondary);
+$dark: map-get($colors, body);
+$light: map-get($colors, light-blue);
+$info: map-get($colors, dark-blue);
+
+$container-max-widths: (
+  sm: 620px,
+  md: 750px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1200px,
+);
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 2,
+  5: $spacer * 3,
+);
+
+$grid-gutter-width: 3rem;
+
+$h1-font-size: 2rem;
+$h2-font-size: 1.75rem;
+$h3-font-size: 1.2rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.4rem;
+$h6-font-size: 1.1rem;
+$headings-margin-bottom: 1rem;
+
+$link-color: map-get($colors, background);
+$link-hover-color: none;
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+$breadcrumb-divider-color: map-get($colors, light-blue);
+$breadcrumb-active-color: map-get($colors, body);
+
+$navbar-dark-toggler-border-color: none;
+$navbar-dark-color: map-get($colors, background);
+$navbar-toggler-transition: none;
+$navbar-toggler-focus-width: none;
+
+$transition-collapse: height 0.5s linear;
+
+$border-radius: 10px;
+
+$card-title-spacer-y: 0;
+$card-spacer-x: 0;
+$card-border-width: 0px;
+$card-border-color: $body-background-color;
+$card-box-shadow: $box-shadow;
+$card-bg: map-get($colors, background);
+
+$input-border-color: map-get($colors, light-blue);
+$input-border-width: 2px;
+$input-btn-border-width: 2px;
+$input-border-radius: $border-radius !important;
+$input-box-shadow: none;
+$input-focus-border-color: map-get($colors, dark-blue);
+$form-select-focus-border-color: map-get($colors, dark-blue);
+$input-focus-box-shadow: none;
+$form-select-focus-box-shadow: none;
+
+$btn-focus-box-shadow: none !important;
+$btn-active-box-shadow: none;
+
+$accordion-icon-active-color: map-get($colors, body);
+$accordion-padding-x: 0.5rem;
+$accordion-button-active-bg: none;
+$accordion-button-active-color: map-get($colors, body);
+$accordion-border-color: map-get($colors, light-blue);
+
+$component-active-bg: map-get($colors, body);
+$nav-tabs-link-active-bg: map-get($colors, secondary);
+$nav-tabs-border-color: map-get($colors, secondary);
+$nav-tabs-link-active-border-color: map-get($colors, secondary);
+$nav-tabs-link-active-color: map-get($colors, body);
+$nav-link-color: map-get($colors, body);
+
+$modal-lg: 600px;

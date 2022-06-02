@@ -1,0 +1,24 @@
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/functions";
+@import "partials/layout";
+@import "partials/imageHeader";
+@import "partials/buttons";
+@import "partials/cards";
+@import "partials/forms";
+@import "partials/nav";
+@import "partials/typography";
+@import "partials/footer";
+@import "partials/details";
+@import "partials/admin";
+@import "partials/datePicker";
+@import "partials/spinner";
+@import "partials/messages";
+@import "partials/pageLoader";
+@import "partials/modals";
+@import "partials/subscribe";
+@import "partials/contact";
+
+@import "partials/custom";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

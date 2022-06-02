@@ -1,0 +1,125 @@
+//form datepicker
+.form__datePicker {
+  width: 100%;
+  margin: 0 auto;
+}
+
+//form buttons
+.form__button {
+  max-width: 650px;
+}
+
+//hidden form inputs
+.inputHidden {
+  display: none;
+}
+
+//contact & login form
+.loginForm,
+.contactForm {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+//search form
+.searchForm {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  margin-top: -30px;
+  &__group {
+    position: relative;
+  }
+  &__list {
+    position: relative;
+    width: inherit;
+  }
+  &__listGroup {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+}
+
+//filter form
+.filters {
+  &__header .accordion-button {
+    font-size: 1.3rem !important;
+  }
+  &__innerAccordion {
+    margin: 1rem 0;
+  }
+  &__rating {
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    &--icon {
+      width: 1.6rem;
+      height: 1.6rem;
+      padding: 0 3px;
+    }
+  }
+  &__tags {
+    &--icon {
+      width: 1.6rem;
+      height: 1.6rem;
+      padding-right: 4px;
+    }
+    &--item {
+      font-size: 1rem;
+      display: flex;
+    }
+  }
+  &__chips {
+    margin: 1rem 0 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    &--chip {
+      background-color: map-get($colors, light-blue);
+      padding: 2px 10px;
+      margin: 5px;
+      border-radius: 10px;
+    }
+  }
+  &__form {
+    &__range {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2rem;
+      &--label {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+    }
+  }
+}
+
+//form errors/validation
+.formError {
+  color: map-get($colors, primary);
+  font-size: 0.9rem;
+}
+.form__text__counter {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.9rem;
+  color: map-get($colors, dark-blue);
+  &--error {
+    display: block;
+    color: map-get($colors, primary);
+  }
+}
+
+@include for-desktop {
+  .addForm {
+    &__amenities {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

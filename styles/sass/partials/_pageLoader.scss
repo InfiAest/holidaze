@@ -1,0 +1,32 @@
+.pageLoader {
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  z-index: 20;
+  background-color: map-get($colors, body);
+  &__inner {
+    width: fit-content;
+  }
+  &__svg {
+    width: 49px;
+  }
+  &__path {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: logoAnimate 3s linear;
+  }
+  &__text {
+    color: map-get($colors, background);
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+
+@keyframes logoAnimate {
+  from {
+    stroke-dashoffset: 320;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

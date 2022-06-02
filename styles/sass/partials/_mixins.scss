@@ -1,0 +1,30 @@
+//media-queries
+@mixin for-large-mobile {
+  @media (min-width: $large-mobile-width) {
+    @content;
+  }
+}
+
+@mixin for-tablet {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin for-desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
+
+@mixin for-xl-desktop {
+  @media (min-width: $xl-desktop-width) {
+    @content;
+  }
+}
+
+@mixin for-xxl-desktop {
+  @media (min-width: $xxl-desktop-width) {
+    @content;
+  }
+}

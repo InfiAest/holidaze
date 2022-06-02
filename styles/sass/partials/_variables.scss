@@ -1,0 +1,24 @@
+$colors: (
+  primary: #a84952,
+  secondary: #e6c532,
+  light-blue: #d3e4e8,
+  dark-blue: #566d73,
+  body: #1d1f1e,
+  background: #ffffff,
+  disabled: rgba(168, 73, 82, 0.2),
+);
+
+$box-shadow: 3px 3px 12px rgba(86, 109, 115, 0.4);
+$box-shadow-hover: 3px 3px 12px rgba(86, 109, 115, 0.9);
+
+$border-radius: 10px;
+
+$font-primary: "montserrat", sans-serif;
+$font-headings: "bebas-neue", sans-serif;
+
+//screen widths
+$large-mobile-width: 576px;
+$tablet-width: 768px;
+$desktop-width: 992px;
+$xl-desktop-width: 1200px;
+$xxl-desktop-width: 1400px;

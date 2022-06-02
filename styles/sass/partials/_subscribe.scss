@@ -1,0 +1,11 @@
+.subscribe {
+  background-color: map-get($colors, dark-blue);
+  width: 100%;
+  position: relative;
+  margin: 4rem auto;
+  padding: 4rem 0;
+  color: map-get($colors, background);
+  &__heading {
+    font-size: 1.6rem;
+  }
+}
